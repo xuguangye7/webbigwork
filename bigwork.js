@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-12-16 15:25:36
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2019-01-04 23:23:40
+* @Last Modified time: 2019-01-05 10:08:58
 */
 //加减数量
 var jian=document.getElementById('jian');
@@ -43,13 +43,13 @@ var  mlo =document.getElementById('mlo');
 var  mlt =document.getElementById('mlt');
 var  ml =document.getElementById('ml');
 ml.innerHTML="'150ml'";
-mlo.style.backgroundImage="url('../img/duigou.png')";
+mlo.style.backgroundImage="url('./img/duigou.png')";
 mlo.style.backgroundRepeat="no-repeat";
 mlo.style.border="1px solid #ff0853";
 mlo.style.backgroundPosition="47px 15px";
 mlo.onclick=function(){
  	ml.innerHTML="'150ml'";
- 	mlo.style.backgroundImage="url('../img/duigou.png')";
+ 	mlo.style.backgroundImage="url('./img/duigou.png')";
  	mlo.style.backgroundRepeat="no-repeat";
  	mlo.style.border="1px solid #ff0853";
  	mlt.style.border="none";
@@ -58,7 +58,7 @@ mlo.onclick=function(){
 }
 mlt.onclick=function(){
 	ml.innerHTML="'200ml'";
-	mlt.style.backgroundImage="url('../img/duigou.png')";
+	mlt.style.backgroundImage="url('./img/duigou.png')";
 	mlt.style.backgroundRepeat="no-repeat";
 	mlt.style.border= "1px solid #ff0853";
 	mlo.style.border="none";
@@ -80,28 +80,28 @@ z1.onclick=function(){
 	if(z2.style.border='none'){
 		z2.style.border='2px solid #ff9003';
 		z3.style.border='none';	
-		tu.src="../img/pp0.jpeg";
-		Bimg.src="../img/pp0.jpeg";
+		tu.src="./img/pp0.jpeg";
+		Bimg.src="./img/pp0.jpeg";
 	}
 }
 z2.onmouseover=function(){
 	z2.style.border='2px solid #ff9003';
 	z3.style.border='none';	
-	tu.src="../img/pp0.jpeg";
-	Bimg.src="../img/pp0.jpeg";
+	tu.src="./img/pp0.jpeg";
+	Bimg.src="./img/pp0.jpeg";
 }
 z3.onmouseover=function(){
 	z3.style.border='2px solid #ff9003';
 	z2.style.border='none';
-	tu.src="../img/pp1.jpeg";
-	Bimg.src="../img/pp1.jpeg";
+	tu.src="./img/pp1.jpeg";
+	Bimg.src="./img/pp1.jpeg";
 }
 z4.onclick=function(){
 	if(z3.style.border='none'){
 		z3.style.border='2px solid #ff9003';
 		z2.style.border='none';
-		tu.src="../img/pp1.jpeg";
-		Bimg.src="../img/pp1.jpeg";
+		tu.src="./img/pp1.jpeg";
+		Bimg.src="./img/pp1.jpeg";
 	}
 }
 img1.onmouseover=function(){
